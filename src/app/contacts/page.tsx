@@ -1,15 +1,19 @@
-export default function Page() {
+export default function Contacts() {
     return (
         <>
             <header>Contacts</header>
             <main>
-                <article className="flex gap-2">
-                    <div>John</div>
-                    <div>Smith</div>
-                    <div>123 Main Street</div>
-                    <div>Waterloo</div>
+                <article>
+                    <div>John Smith</div>
+                    <div>Waterloo, Ontario</div>
                     <div>john.smith@example.com</div>
                     <div>519-555-1234</div>
+                </article>
+                <article>
+                    <div>Jane Smith</div>
+                    <div>Waterloo, Ontario</div>
+                    <div>jane.smith@example.com</div>
+                    <div>519-555-5678</div>
                 </article>
             </main>
         </>
