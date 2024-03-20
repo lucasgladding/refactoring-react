@@ -1,4 +1,4 @@
-import TContact from '@/types/contact';
+import TContact from '@/types/contact'
 
 export default function useContacts() {
     const contacts: TContact[] = [

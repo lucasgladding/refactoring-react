@@ -1,7 +1,7 @@
 import TContact from '@/types/contact'
 
 type Props = {
-    contact: TContact,
+    contact: TContact
 }
 
 export default function Contact(props: Props) {
