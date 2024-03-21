@@ -57,12 +57,12 @@ function reducer(state: State, action: Action): State {
 }
 
 export default function useAsyncContacts() {
-    const initialState: State = {
+    const base: State = {
         loading: false,
         contacts: [],
         error: undefined,
     }
-    const [state, dispatch] = useReducer(reducer, initialState)
+    const [state, dispatch] = useReducer(reducer, base)
     function load() {
         dispatch({ action: 'load' })
         // async request to get contacts

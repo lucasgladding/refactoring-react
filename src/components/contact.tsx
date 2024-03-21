@@ -1,3 +1,5 @@
+import TContact from '@/types/contact'
+
 type Props = {
     contact: TContact
 }
