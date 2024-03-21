@@ -1,7 +1,6 @@
 import { afterEach, describe, expect, it } from 'vitest'
 import { cleanup, renderHook, screen } from '@testing-library/react'
-import Contacts from '@/app/contacts/page'
-import { useContacts } from '@/hooks/useContacts'
+import useContacts from '@/hooks/useContacts'
 
 describe('contacts', () => {
     afterEach(() => {
